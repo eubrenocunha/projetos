@@ -24,7 +24,7 @@ body {
 }
 
 .cabecalho__notificacao i::before {
-    content: "\e906";
+    content: "\e902";
     font-size: 24px;
 }
 
