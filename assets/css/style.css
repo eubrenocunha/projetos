@@ -36,7 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #15191C;
-    width: 30vw;
+    width: 40vw;
     height: 100vh;
 
     position: absolute;
@@ -50,7 +50,7 @@ body {
 }
 
 .menu-lateral__logo {
-    width: 70px;
+    width: 100px;
     align-self: center;
     padding: 16px;
 }
