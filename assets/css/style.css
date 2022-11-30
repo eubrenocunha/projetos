@@ -36,7 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #15191C;
-    width: 30vw;
+    width: 25vw;
     height: 100vh;
 
     position: absolute;
@@ -50,18 +50,22 @@ body {
 }
 
 .menu-lateral__logo {
-    width: 70px;
+    width: 90px;
     align-self: center;
     padding: 16px;
 }
 
 .menu-lateral__link {
-    height: 30px;
+    height: 40px;
     color: #95999C;
     padding-left: 60px;
-    padding-bottom: 2px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
+}
+
+.menu-lateral__link p{
+    font-size: 0.8rem;
 }
 
 .menu-lateral__link--ativo {
@@ -203,7 +207,7 @@ main > h1{
 }
 
 main > p{
-    font-size: 0.7rem;
+    font-size: 1rem;
     padding-bottom: 10px;
     text-indent: 0.5in;
     font-weight: 500;
