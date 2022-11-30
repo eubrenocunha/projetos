@@ -20,12 +20,12 @@ body {
 
 .cabecalho__menu i::before {
     content: "\e904";
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .cabecalho__home i::before {
     content: "\e902";
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .cabecalho__logo {
@@ -36,7 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #15191C;
-    width: 40vw;
+    width: 30vw;
     height: 100vh;
 
     position: absolute;
@@ -50,15 +50,16 @@ body {
 }
 
 .menu-lateral__logo {
-    width: 100px;
+    width: 70px;
     align-self: center;
     padding: 16px;
 }
 
 .menu-lateral__link {
-    height: 60px;
+    height: 30px;
     color: #95999C;
-    padding-left: 64px;
+    padding-left: 60px;
+    padding-bottom: 2px;
     display: flex;
     align-items: center;
 }
@@ -194,9 +195,20 @@ body {
     margin: auto;
 }
 
-.apresentacao p{
+main > h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
     padding-bottom: 30px;
+}
+
+main > p{
+    font-size: 0.7rem;
+    padding-bottom: 10px;
     text-indent: 0.5in;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding-left: 70px;
+    padding-right: 70px;
 }
