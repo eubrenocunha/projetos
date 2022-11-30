@@ -110,3 +110,5 @@ Altura mínima de um cartão: `320px`
 @media screen and  (min-width:768px){
     
 }
+
+menu-lateral__link--ativo

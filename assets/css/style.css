@@ -7,7 +7,6 @@ body {
     background-color: #1D232A;
     font-family: 'Open Sans', 'icones', sans-serif;
     color: #FFFFFF;
-    height:10px;
 }
 
 .cabecalho {
@@ -37,7 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #15191C;
-    width: 20vw;
+    width: 30vw;
     height: 100vh;
 
     position: absolute;
@@ -51,13 +50,13 @@ body {
 }
 
 .menu-lateral__logo {
-    width: 118px;
+    width: 70px;
     align-self: center;
     padding: 16px;
 }
 
 .menu-lateral__link {
-    height: 64px;
+    height: 60px;
     color: #95999C;
     padding-left: 64px;
     display: flex;
@@ -175,4 +174,29 @@ body {
 
 .cartao__botao--destaque::before {
     margin-right: 8px;
+}
+
+.boasvindas{
+    text-align: center;
+    font-family: cursive;
+    font-size: 3rem;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.apresentacao{
+    background-color: azure;
+    border-radius: 20px;
+    color: #15191C;
+    position: relative;
+    padding: 20px;
+    text-align: justify;
+    margin: auto;
+}
+
+.apresentacao p{
+    padding-bottom: 30px;
+    text-indent: 0.5in;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
 }
