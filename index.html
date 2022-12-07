@@ -29,50 +29,80 @@
         </section>
 
         <section class="carrossel">
-            <h2 class="carrossel__titulo">Projetos iniciantes feitos em aulas</h2>
-            <!-- Slider main container -->
+                    <h2 class="carrossel__titulo">Projetos iniciantes feitos em aulas</h2>
+                    <P class="carrossel__texto">Clique e confira cada um deles.</P>
+                    <!-- Slider main container -->
 
-          
-    <div class="carrossel__container">
-        <div class="swiper">
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="assets/Imagens/ALURABOOKS.svg" alt="Alura books"></div>
-                <div class="swiper-slide"><img src="assets/Imagens/ALURAPLUS.svg" alt="Alura plus"></div>
-                <div class="swiper-slide"><img src="assets/Imagens/ALURINHA.svg" alt="Alurinha"></div>
-                <div class="swiper-slide"><img src="assets/Imagens/APARECIDANUTRICAO.svg" alt="Aparecida nutrição"></div>
-                <div class="swiper-slide"><img src="assets/Imagens/APEPERIA.svg" alt="Apeperia"></div>
-                <div class="swiper-slide"><img src="assets/Imagens/BARBEARIALURA.svg" alt="Barbearia ALURA"></div>
-                <div class="swiper-slide"><img src="assets/Imagens/FRUTAEFRUTO.svg" alt="Fruta e fruto"></div>
-                <div class="swiper-slide"><img src="assets/Imagens/PROJETOANDROID.svg" alt="Projeto Android"></div>
-                <div class="swiper-slide"><img src="assets/Imagens/PROJETOCORDEL.svg" alt="Projeto cordel"></div>
-                ...
-        </div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
+                
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
 
-        <div class="card">
-            <div class="card__descricao">
+                        <div class="swiper-slide"><a href="https://eubrenocunha.github.io/alurabooks/" target="_blank"><img src="assets/Imagens/ALURABOOKS.svg" alt="Alura books"></a></div>
 
-            <div class="descricao">
-                <h3 class="descricao__titulo">Quem sou eu?</h3>
-                <h2 class="descricao__titulo-livro">Breno cunha</h2>
-                <p class="descricao__texto">Tenho 25 anos, casado e tenho seguido na área de programação, atualmente como DEV Front-end.</p>
-        </div>
-    </div>
+                        <div class="swiper-slide"><a href="https://eubrenocunha.github.io/aluraplus/" target="_blank"><img src="assets/Imagens/ALURABOOKS (2).svg" alt="Alura plus"></a></div>
+
+                        <div class="swiper-slide"><a href="https://eubrenocunha.github.io/alurinha/" target="_blank"><img src="assets/Imagens/ALURABOOKS (3).svg" alt="Alurinha"></a></div>
+
+                        <div class="swiper-slide"><a href="https://eubrenocunha.github.io/apeperia/" target="_blank"><img src="assets/Imagens/ALURABOOKS (4).svg" alt="Apeperia"></a></div>
+
+                        <div class="swiper-slide"><a href="https://eubrenocunha.github.io/BarbeariaAlura/" target="_blank"><img src="assets/Imagens/ALURABOOKS (5).svg" alt="Barbearia ALURA"></a></div>
+
+                        <div class="swiper-slide"><a href="https://eubrenocunha.github.io/frutaefruto/" target="_blank"><img src="assets/Imagens/ALURABOOKS (6).svg" alt="Fruta e fruto"></a></div>
+
+                        <div class="swiper-slide"><a href="https://eubrenocunha.github.io/projeto-cordel/" target="_blank"><img src="assets/Imagens/ALURABOOKS (7).svg" alt="Projeto cordel"></a></div>
+                        ...
+                </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+            </div>
+                <div class="card">
+                    <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Quem sou eu?</h3>
+                        <h2 class="descricao__titulo-livro">Breno cunha</h2>
+                        <p class="descricao__texto">Tenho 25 anos, casado e tenho seguido na área de programação, atualmente como DEV Front-end.</p>
+                    </div>
+                </div>
+             
+                <hr/>
+            </div>
+            <div class="card">
+                <div class="card__descricao">
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Octopus</h3>
+                    <h2 class="descricao__titulo-livro">Quem somos?</h2>
+                    <p class="descricao__texto">Ao longo da carreira, pretendemos divulgar todo material como forma de portifólio para apresentação para empresas contratantes ou para trabalhos de freelancer</p>
+                </div>
+            </div>    
+
+            <hr/>
+            </div>
+            <div class="card">
+                <div class="card__descricao">
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Contato</h3>
+                    <h2 class="descricao__titulo-livro">Nossas principais redes</h2>
+                    <ul class="card__lista">
+                        <li class="card__item"><a href="https://www.linkedin.com/in/breno-cunha-b372a180 " class="card__link">Linkedin</a></li>
+                        <li class="card__item"><a href="https://github.com/eubrenocunha" class="card__link">Github</a></li>
+                    </ul>
+                </div>
+            </div> 
+                
         </section>
     
     
 
     
 
-        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-        <script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" ></script>
+        <script class="script">
             const swiper = new Swiper('.swiper',{
                 spaceBetween: 10,
                 slidesPerView: 3,
