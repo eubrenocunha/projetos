@@ -4,53 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OCTOPUS | Home</title>
+    <title>OCTOPUS | Portifólio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,300&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/Imagens/octopus.ico.ico" type="image/x-icon">
 </head>
 <body>
-    
     <header class="cabecalho">
-        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
-        <a href="index.html"><img src="assets/Imagens/octopus-mini.png" alt="Logotipo da octopus" class="cabecalho__logo"></a>
-        <a href="index.html"><button class="cabecalho__home" aria-label="home"><i></i></button></a>
-    </header>
-    <nav class="menu-lateral">
-        <img src="assets/Imagens/octopus-mini.png" alt="Logotipo da Octopus" class="menu-lateral__logo">
-        <a href="projeto-cordel.html" class="menu-lateral__link menu-lateral__link--inicio "><p>Projeto cordel</p></a>
-        <a href="projeto-android.html" class="menu-lateral__link menu-lateral__link--videos"><p>Projeto Android</p></a>
-        <a href="barbearia-alura.html" class="menu-lateral__link menu-lateral__link--picos"><p>Barbearia Alura</p></a>
-        <a href="frutaefruto.html" class="menu-lateral__link menu-lateral__link--integrantes"><p>Fruta & fruto</p></a>
-    </nav>
-    <main class="principal">
-            <h1>Bem vindos ao meu portifólio</h1>
+            <img src="assets/Imagens/octopus-logo.png" alt="Logo da octopus" class="container__imagem">
+            <h1 class="container__titulo"> 
+                <b class="container__titulo--negrito">Octo</b>pus</h1>
+        </div>
+    </header> 
+        <section class="banner">
+            <h2 class="banner__titulo"> Bem vindos!</h2>
+            <p class="banner__texto">Esse é um pequeno portal que vai apresentar um pouco dos meus projetos, desde a primeira aula até os avançados atuais, para que possam acompanhar um pouco do meu progresso.</p>
+        </section>
 
-            <p>
-                Meu nome é Breno marçal cunha, nascido em 1997 em uma cidade de Minas Gerais, sempre tive sonhos e batalhas como qualquer um outro. gosto muito de música como hobby e como ministério na denominação em que frequento. jamais me imaginei como um programador, e era difícil eu achar uma área em que me identificava tanto quanto a área da programação. Depois de conversas e conselhos que recebi de um grande amigo me vi despertar um interesse nessa área, e após algumas pesquisas e sondagem de campo, não teve outra, me apaixonei.
-                Comprei curso na Alura e faço Curso em vídeo do professor guanabara e assim tenho dois tipos de certificados bem pesados no mercado em quesito de reconhecimento.
-            </p>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Projetos iniciantes feitos em aulas</h2>
+            <!-- Slider main container -->
 
-            <p>
-                Em minha vida sempre quis ter uma marca, um nome destacado e diferenciado, onde se tornasse reconhecido e encaixasse em qualquer nicho que eu achasse a seguir, ja tentei usar mr focus em perfumes e Finanfast em escritório de apoio financeiro e não obtive sucesso, dessa vez estou apostando no nome Octopus que na tradução do inglês que significa Polvo, que é um animal que traz a simbologia de sabedoria, desenvoltura e tremendo poder. Em muitas culturas, as pessoas consideram um polvo um santo padroeiro do mar. O polvo também está associado à imortalidade e à capacidade de renascer, sem dizer o sentido dos vários tentáculos que representam as várias formas de tentativas para chegar até a perfeição e também simboliza os diversos ramos em que a empresa pretende se especializar 
-            </p>
-       
-            <p>
-                As cores da marca se inspiram na cor azul que traz um significado que produz segurança, compreensão. Propicia saúde emocional e simboliza lealdade, confiança e tranquilidade.
-                tendo em conta esses significados é uma cor que é bastante usada nas empresas de tecnologia.
-            </p>
-      
+          
+    <div class="carrossel__container">
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/Imagens/ALURABOOKS.svg" alt="Alura books"></div>
+                <div class="swiper-slide"><img src="assets/Imagens/ALURAPLUS.svg" alt="Alura plus"></div>
+                <div class="swiper-slide"><img src="assets/Imagens/ALURINHA.svg" alt="Alurinha"></div>
+                <div class="swiper-slide"><img src="assets/Imagens/APARECIDANUTRICAO.svg" alt="Aparecida nutrição"></div>
+                <div class="swiper-slide"><img src="assets/Imagens/APEPERIA.svg" alt="Apeperia"></div>
+                <div class="swiper-slide"><img src="assets/Imagens/BARBEARIALURA.svg" alt="Barbearia ALURA"></div>
+                <div class="swiper-slide"><img src="assets/Imagens/FRUTAEFRUTO.svg" alt="Fruta e fruto"></div>
+                <div class="swiper-slide"><img src="assets/Imagens/PROJETOANDROID.svg" alt="Projeto Android"></div>
+                <div class="swiper-slide"><img src="assets/Imagens/PROJETOCORDEL.svg" alt="Projeto cordel"></div>
+                ...
+        </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
 
-        <script src="index.js"></script>
-        
-    </main>
+        <div class="card">
+            <div class="card__descricao">
 
+            <div class="descricao">
+                <h3 class="descricao__titulo">Quem sou eu?</h3>
+                <h2 class="descricao__titulo-livro">Breno cunha</h2>
+                <p class="descricao__texto">Tenho 25 anos, casado e tenho seguido na área de programação, atualmente como DEV Front-end.</p>
+        </div>
+    </div>
+        </section>
+    
     
 
     
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper',{
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                },
+            });
+        </script>
 
 </body>
 </html>

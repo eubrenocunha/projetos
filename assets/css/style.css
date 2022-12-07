@@ -1,218 +1,27 @@
-@font-face {
-    font-family: 'icones';
-    src: url(../font/icones.ttf);
+@import url("styles/header.css");
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+@import url(styles/contato.css);
+@import url(styles/rodape.css);
+
+
+:root{
+    --cor-de-fundo:#EBECEE;
+    --branco:#FFFFFF;
+    --laranja: orange;
+    --azul:#456b88;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --preto:black;
+    --cinza:#474646;
+    --cinza-claro:#858585;
+    --fonte-pricipal: "poppins";
+    --fonte-secundaria:"josefins sans";
 }
 
-body {
-    background-color: #1D232A;
-    font-family: 'Open Sans', 'icones', sans-serif;
-    color: #FFFFFF;
-}
-
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #15191C;
-    padding: 8px 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
-}
-
-.cabecalho__menu i::before {
-    content: "\e904";
-    font-size: 20px;
-}
-
-.cabecalho__home i::before {
-    content: "\e902";
-    font-size: 20px;
-}
-
-.cabecalho__logo {
-    width: 40px;
-}
-
-.menu-lateral {
-    display: flex;
-    flex-direction: column;
-    background-color: #15191C;
-    width: 40vw;
-    height: 100vh;
-
-    position: absolute;
-    left: -100vw;
-    transition: .25s;
-}
-
-.menu-lateral--ativo {
-    left: 0;
-    transition: .25s;
-}
-
-.menu-lateral__logo {
-    width: 90px;
-    align-self: center;
-    padding: 16px;
-}
-
-.menu-lateral__link {
-    height: 40px;
-    color: #95999C;
-    padding-left: 60px;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.menu-lateral__link p{
-    font-size: 0.8rem;
-}
-
-.menu-lateral__link--ativo {
-    color: #FFFFFF;
-    padding-left: 56px;
-    border-left: 8px solid #FFFFFF;
-}
-
-.menu-lateral__link::before {
-    content: "\e900";
-    width: 24px;
-    height: 24px;
-    font-size: 24px;
-    position: absolute;
-    left: 24px;
-}
-
-.menu-lateral__link--inicio::before {
-    content: "\e90f";
-}
-
-.menu-lateral__link--videos::before {
-    content: "\e90f";
-}
-
-.menu-lateral__link--picos::before {
-    content: "\e90f";
-}
-
-.menu-lateral__link--integrantes::before {
-    content: "\e90f";
-}
-
-
-.principal{
-    padding: 24px 16px;
-}
-
-.titulo-pagina{
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-.cartao {
-    width: 100%;
-    border-radius: 15px;
-    overflow: hidden;
-    background-color: #2C343A;
-}
-
-.cartao__conteudo {
-    padding: 16px;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 8px
-    ;
-}
-
-.cartao__destaque {
-    grid-column: span 2;
-}
-
-.cartao__titulo {
-    font-size: 1.2rem;
-    font-weight: 700;
-    grid-column: span 2;
-}
-
-.cartao__perfil {
-    color: #95999C;
-    font-size: 0.9rem;
-    grid-column: span 2;
-}
-
-.cartao__info {
-    display: flex;
-    align-items: center;
-    color: #95999C;
-}
-
-.cartao__info--tempo::before {
-    content: "\e90c";
-    margin-right: 8px;    
-}
-
-.cartao__info--visualizacao::before {
-    content: "\e90f";
-    margin-right: 8px;    
-}
-
-.cartao__botao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0480DC;
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    font-size: 0.9rem;
-}
-
-.cartao__botao--play::before {
-    content: "\e90b";
-    font-size: 24px;
-}
-
-.cartao__botao--destaque {
-    width: 100%;
-    grid-column: span 2;
-}
-
-.cartao__botao--destaque::before {
-    margin-right: 8px;
-}
-
-.boasvindas{
-    text-align: center;
-    font-family: cursive;
-    font-size: 3rem;
-    padding-bottom: 30px;
-    width: 100%;
-}
-
-.apresentacao{
-    background-color: azure;
-    border-radius: 20px;
-    color: #15191C;
-    position: relative;
-    padding: 20px;
-    text-align: justify;
-    margin: auto;
-}
-
-main > h1{
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    padding-bottom: 30px;
-}
-
-main > p{
-    font-size: 1rem;
-    padding-bottom: 10px;
-    text-indent: 0.5in;
-    font-weight: 500;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    padding-left: 70px;
-    padding-right: 70px;
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-pricipal);
+    font-size: 16px;
+    font-weight: 400;
 }
